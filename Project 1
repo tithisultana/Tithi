@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf ("Enter the value of x:\n");
+    scanf("%d",&x);
+    if(x>=80) {
+        printf("A+");}
+    else if(x>=70 && x<80)
+       {
+           printf("A");
+
+       }
+    else if(x>=60 && x<70)
+    {
+         printf("A-");
+    }
+
+    else
+      {
+          printf("Fail");
+
+      }
+        return 0;
+
+
+}
